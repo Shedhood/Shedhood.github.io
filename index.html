@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+</head>
+
+<body>   
+<div id="logo">
+        <a href="index.html"><img src="img/jabulogo.jpg" alt="LOGO"></a>
+      </div>
+      
+<div class="header">
+  <h4>Result Processing and Transcript Generation System</h4>
+ <h4>Joseph Ayo Babalola University </h4>         
+</div>
+
+
+<center>
+  <div id="container">
+<form action="login.php" method="POST">
+  <label for="username"> Matric No: </label>
+  <input type="text" id="username"   name="username" required>
+  <br/><br/>
+    
+  <label for="username"> Password: </label>
+  <input type="password" id="password" name="password" required>
+  <input type="hidden" name="req_access" value="yes">
+
+  <div id="lower">
+<input type="checkbox"><label for="checkbox">Keep me log in</label>
+  <input type="submit" value="login">
+
+  </div> <!--/ lower-->
+    </div>
+</form>
+</body>
+</html>
